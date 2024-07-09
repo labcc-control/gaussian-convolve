@@ -14,19 +14,32 @@ Antes de começar, certifique-se de ter o Python instalado em sua máquina. Voc�
 Um ambiente virtual é uma ferramenta que ajuda a manter os projetos Python isolados uns dos outros, especialmente com relação às suas dependências.
 
 1. Abra o terminal (ou cmd/powershell no Windows).
-2. Navegue até o diretório do seu projeto. Por exemplo:
+2. Navegue até o diretório para clonar o projeto. Por exemplo:
 
     ```sh
     cd caminho/para/o/seu/projeto
     ```
 
-3. Crie um novo ambiente virtual com o comando:
+
+3. Clone o projeto:
+    ```sh
+    git clone https://github.com/labcc-control/gaussian-convolve.git
+    ```
+
+4. Navegue até o diretório do projeto:
+
+    ```sh
+    cd ./gaussian-convolve
+    ```
+
+
+5. Crie um novo ambiente virtual com o comando:
 
     ```sh
     python -m venv .venv
     ```
 
-4. Ative o ambiente virtual:
+6. Ative o ambiente virtual:
 
     - No Windows:
 
